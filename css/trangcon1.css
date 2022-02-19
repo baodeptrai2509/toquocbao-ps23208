@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 80px;
+    float: left;
+    position: relative;
+}
+.htop{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(240, 238, 238);
+}
+article{
+    width: 100%;
+    float: left;
+    min-height:1800px;
+    background-color: white;
+
+}
+
+.left{
+    width: 50%; 
+    float: left;
+    min-height: 500px;
+    background-color: white;
+}
+.left img{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: auto;
+}
+.right{
+    width: 50%; 
+    float: right;
+    min-height: 500px;
+    background-color: white;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    float: left;
+    background-color: rgb(16, 6, 74);
+}
+footer>b{
+    color: white;
+}
+.banner{
+    width: 100%;
+    height: auto;
+}
+.banner>img{
+    width: 100%;
+}
+.banner > h3{
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}
+.hmenu{
+    list-style: none;
+}
+.hmenu>li{
+    display: inline-block;
+    position: relative;
+    padding: 5px ;
+}
+.hmenu>li>a{
+    text-decoration: none;
+    font-size: 16pt  ;
+    color:rgb(78, 67, 67) ;
+    display: block;
+    padding: 20px 30px ;   
+    font-family: Arial;
+}
+.hmenu>li:hover >a{
+    color:  rgb(244, 248, 239);
+}
+.logo{
+    padding: 20px 100px ;
+    width: 50px;
+    height: 50px; 
+}
+.hmenu >.logo > img{
+    max-width: 100px;
+    height: auto;
+}
+.menu> ul.hmenu > ul.smenu {
+    position:absolute;
+    display:none;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius:3px;
+    width:200px;
+    background-color:rgb(173, 42, 42);
+    box-shadow:0 0 1px rgb(202, 115, 115);
+    }
+.hmenu> ul.smenu:hover > ul{
+    display: block ;
+}
+.smenu{
+    list-style: none;
+    display: none;
+    position: absolute;
+}
+
+.smenu> li{
+    display: block;
+    padding: 5px;
+    float: left;
+    text-decoration: double;
+}
+.smenu >li >a {
+    text-decoration: none;
+    color: darkgray;
+    font-weight: normal;
+}
+.hmenu >li:hover .smenu{
+    display: block;
+    background-color: white;
+    padding: 20px;
+    margin: 0px;
+    font-size: 15px;
+    
+}
+
+.images{
+    width: 24%;
+    height: 40%;
+    float: left;
+    padding: 0px;
+    margin: 5px;
+    padding-left: 40px; 
+    padding-bottom: 30px ;
+   
+}
+.col_6 > img{
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    width: 100%;
+    height: auto;
+}
+.col_6 > h1{
+    text-transform: uppercase;
+    padding-top: 5px;
+    font-size: 12px;
+    float: left;
+   
+    padding-bottom: 10px;
+    line-height: 20px;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+}
+.col_6 > h2{
+    padding-top: 0px;
+    font-size: 15px;
+    color: red;
+    float: left;
+    padding-left: 10px;
+    
+}
+.hethong{
+    width: 20%;
+    height: 100px;
+    float: left; 
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: justify; 
+}
+.hotro{
+width: 20%;
+height: 200px;
+padding: 5px 10px;
+text-align: justify; 
+}    
+.diachi{
+width: 20%;
+height: 200px;
+border-radius: 10px;
+padding: 5px 10px;
+text-align: justify;
+}   
+.ketnoi{
+    width: 20%;
+    height: 100px;
+}     
+.footer{
+width: 100%;
+height: 400px;
+justify-content: space-around;
+display: flex;
+
+}
+.hethong>p{
+    padding: 30px;
+    float: left;;
+}
+.hotro>p{
+    padding: 30px;
+    float: left;;
+}
+.diachi>p{
+    padding: 30px;
+    float: left;;
+}
+h1{
+    font-size: 40px;
+    padding: 30px;
+}
+h3{
+    font-weight: 100;
+    padding: 30px;
+}
+.giohang{
+    float: right;
+    padding: 10px 50px;
+}
+.iconcuoi i{
+    padding: 10px;
+}
+.iconcuoi{
+    float: left;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.tin>h3{
+    padding-top: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+.maudo{
+    padding-bottom: 50px;
+}
+.tintuc{
+    padding: 20px;
+}
+.tintuc>a{
+font-size: 20px; 
+text-decoration:none ;
+font-weight: bold;
+}
+.tintuc img{
+    float:left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 30%; 
+    height:auto;
+}
+.done >.xemthem{
+    text-align: center;
+    padding-bottom: 0px;
+}
+.xemthem {
+   width: 20%;
+   height: 50px;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-align: center;  
+}
+.xemthem>a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+ 
+h2{
+    text-align: center;
+    font-size: 50px;
+    padding: 50px 0px 0px 50px;
+    font-weight: lighter;
+}
+.dong3{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.dong3 a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: normal;
+}
